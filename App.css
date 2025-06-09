@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #1f6feb, #8250df);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(31, 111, 235, 0.5);
+  color: white;
+}
+
+.role {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.95;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #161b22;
+  padding: 15px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.03);
+}
+
+.navigation a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #58a6ff;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 25px;
+  background: #161b22;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.05);
+}
+
+.section h2 {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  background: #21262d;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #58a6ff;
+  box-shadow: 0 0 5px rgba(88, 166, 255, 0.2);
+  transition: 0.3s ease;
+}
+
+.skill-list li:hover {
+  background: #30363d;
+  transform: scale(1.05);
+}
+
+.project-card {
+  background: #21262d;
+  margin: 15px 0;
+  padding: 20px;
+  border-left: 5px solid #58a6ff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.08);
+}
+
+.project-card:hover {
+  transform: translateX(8px);
+  background-color: #2b3137;
+}
+
+.certification-list {
+  list-style: none;
+  padding-left: 15px;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #a5d6ff;
+}
+
+.contact a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #58a6ff;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+  color: #8b949e;
+  border-top: 1px solid #30363d;
+  margin-top: 40px;
+}
