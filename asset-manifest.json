@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nithin/static/css/main.e107aac8.css",
+    "main.js": "/Nithin/static/js/main.8b452c75.js",
+    "static/js/453.f19e9853.chunk.js": "/Nithin/static/js/453.f19e9853.chunk.js",
+    "index.html": "/Nithin/index.html",
+    "main.e107aac8.css.map": "/Nithin/static/css/main.e107aac8.css.map",
+    "main.8b452c75.js.map": "/Nithin/static/js/main.8b452c75.js.map",
+    "453.f19e9853.chunk.js.map": "/Nithin/static/js/453.f19e9853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e107aac8.css",
+    "static/js/main.8b452c75.js"
+  ]
+}
